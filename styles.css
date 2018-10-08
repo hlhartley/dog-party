@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+button {
+  border: solid;
+  padding: 5px;
+  color: #3f8ca6;
+  font-size: .85em;
+  margin: auto;
+  background: white;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+img {
+  border-radius:50%;
+}
+
+p {
+  padding: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #3f8ca6;
+}
+
+/*Nav Bar Styling*/
+.nav-bar {
+  background-color: #91dfe3;
+  overflow: hidden;
+  font-family: 'Raleway';
+}
+
+.nav-bar a {
+  float: right;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.nav-pic {
+  border: 5px;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  float: left;
+}
+
+/*Body Styling*/
+.container {
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 50px;
+
+}
+
+.main-content {
+  display: inline-block;
+}
+
+.row-title {
+  font-size: 1.2em;
+}
+
+.row-title a {
+  color: black;
+  font-size: 1.2em;
+}
+
+.body-content {
+  position: relative;
+}
+
+.body-text {
+  width: 100%;
+  background-image: url(images/park.jpg); 
+  background-size: cover;
+}
+
+#title-text {
+  text-align: center;
+  font-size: 1.9em;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+#hero-pic {
+  border: 3px solid #3f8ca6;
+  margin-top: 10px;
+}
+
+/*Footer Styling*/
+.footer {
+  background-color: #3f8ca6;
+  overflow: hidden;
+  font-family: 'Raleway';
+}
+
+#footer-img {
+  padding: 0px 20px 0px 20px;
+  border-radius: 0;
+}
+
+#footer-text {
+  color: white;
+  font-size: .85em;
+}
+
+.footer a {
+  color: white;
+  font-size: .85em;
+}
+
+#footer-link {
+  color: white;
+  font-size: .85em;
+  text-decoration: underline;
+}
+
+/*General Styling*/
+.image-border {
+  margin: auto;
+  border: 3px solid #3f8ca6;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 650px) {
+  .container {
+    width: 100%;
+  }
+}
